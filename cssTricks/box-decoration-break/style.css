@@ -1,0 +1,21 @@
+h1 {
+  max-width: 300px;
+  font-family: Verdana;
+}
+
+h1 span {
+  background: blue;
+  color: white;
+  padding: 12px 12px;
+  line-height: 1.4;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Just for centering */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

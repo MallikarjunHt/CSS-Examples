@@ -1,0 +1,26 @@
+.box
+{
+  height: 50px;
+  width: 50px;
+  background: rgb(252, 2, 2);
+  
+/*   animation-name: grow;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-iteration-count: 4;
+  
+  
+  animation-direction: alternate; */
+  
+  animation-fill-mode: backwards;
+  
+  /*  shorthand property  */
+  animation: grow 1s ease 5s 10 alternate;
+}
+
+@keyframes grow
+{
+  from { height: 100px; width: 100px; background: blue; }
+  to { height: 200px; width: 200px; background: rgb(72, 255, 0); }
+}

@@ -23,7 +23,7 @@ jobs:
       id: sync
       uses: bdougie/Fork-Sync-With-Upstream-action@fork
       with:
-        upstream_repository: code-grounds/CSS-Examples
+        upstream_repository: MallikarjunHt/CSS-Examples
         upstream_branch: main
         target_branch: main                      # optional
         github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that requir authentication
